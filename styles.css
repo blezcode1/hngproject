@@ -5,15 +5,19 @@ body{
   background-color: aqua;
 }
 
+#profile_img{
+  border-radius: 50%;
+  width:150px;
+  height:150px;
+  margin:10px;
+}
 
+#main-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-.container {
-  margin-top: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .container button {
@@ -33,13 +37,6 @@ body{
   border-radius: rgb(240, 226, 226);
 }
 
-.hng {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 400px;
- 
-}
 
 .hng img {
   padding: 10px;
