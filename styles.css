@@ -2,7 +2,11 @@
 
 body{
 
-  background-color: aqua;
+  background-color: white;
+}
+
+.slackusername{
+  display: none;
 }
 
 #profile_img{
@@ -10,6 +14,8 @@ body{
   width:150px;
   height:150px;
   margin:10px;
+  padding: 30px;
+
 }
 
 #main-box{
@@ -22,23 +28,28 @@ body{
 
 .container{
   margin-top: 20px;
+  padding-right: 200px;
 }
 
 .container button {
   background-color: EEDCEE; /* Green */
   border: 1px solid EEDCEE;
   color: white;
-  padding: 10px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
   display: block;
   width: 700px;
-  margin: 10px;
-  padding: 30px;
+  margin: 20px;
+  padding: 50px;
   border-radius: 10px;
   border-radius: rgb(240, 226, 226);
+  padding-left: 100px;
+}
+
+button:hover {
+  background-color: rgb(224, 213, 213);
 }
 
 
@@ -67,13 +78,17 @@ a {
   font-family: Fantasy;
 }
 
-/* @media only screen and (min-width: 50px) {
-  body {
-    background-color: white;
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
   }
-} */
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
 
-
+}
 
 
 

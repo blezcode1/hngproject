@@ -14,7 +14,7 @@ class myButton extends React.Component {
     return e( 
       'button', 
       { onClick: () => this.setState({ isliked: true }) }, 
-      'Clik Me' 
+      'BLESSING OCHEJE' 
     ); 
   } 
 } 
