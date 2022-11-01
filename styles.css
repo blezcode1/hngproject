@@ -13,14 +13,14 @@ body{
   border-radius: 50%;
   width:150px;
   height:150px;
-  margin:10px; 
+  margin:10px;
   padding: 30px;
 
 }
 
 #main-box{
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -45,7 +45,7 @@ body{
   padding: 50px;
   border-radius: 10px;
   border-radius: rgb(240, 226, 226);
-  padding-left: 100px;
+  padding-right: 100px;
 }
 
 button:hover {
